@@ -42,7 +42,7 @@
     }
   ],
   "titleFormatted": {
-    "en": "Estimated runtime is below [[limit_hours]] hours",
-    "nl": "Geschatte gebruiksduur is minder dan [[limit_hours]] uur"
+    "en": "Runtime of [[capacity_wh]] Wh at [[soc_percent]]% and [[load_w]] W is below [[limit_hours]] hours",
+    "nl": "Gebruiksduur van [[capacity_wh]] Wh bij [[soc_percent]]% en [[load_w]] W is minder dan [[limit_hours]] uur"
   }
 }

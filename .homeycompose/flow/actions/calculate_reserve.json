@@ -34,8 +34,8 @@
     }
   ],
   "titleFormatted": {
-    "en": "Calculate energy remaining above a [[reserve_percent]]% reserve",
-    "nl": "Bereken resterende energie boven een reserve van [[reserve_percent]]%"
+    "en": "Calculate [[capacity_wh]] Wh remaining above a [[reserve_percent]]% reserve at [[soc_percent]]% charge",
+    "nl": "Bereken [[capacity_wh]] Wh boven een reserve van [[reserve_percent]]% bij [[soc_percent]]% lading"
   },
   "tokens": [
     {

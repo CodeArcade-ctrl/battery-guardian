@@ -42,8 +42,8 @@
     }
   ],
   "titleFormatted": {
-    "en": "Estimate charging from [[current_percent]]% to [[target_percent]]%",
-    "nl": "Schat laden van [[current_percent]]% naar [[target_percent]]%"
+    "en": "Estimate [[capacity_wh]] Wh battery charging from [[current_percent]]% to [[target_percent]]% at [[charge_power_w]] W",
+    "nl": "Schat [[capacity_wh]] Wh acculaden van [[current_percent]]% naar [[target_percent]]% bij [[charge_power_w]] W"
   },
   "tokens": [
     {

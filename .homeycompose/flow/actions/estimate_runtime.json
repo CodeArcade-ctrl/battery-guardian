@@ -34,8 +34,8 @@
     }
   ],
   "titleFormatted": {
-    "en": "Estimate runtime with [[soc_percent]]% charge and [[load_w]] W load",
-    "nl": "Schat de gebruiksduur bij [[soc_percent]]% lading en [[load_w]] W verbruik"
+    "en": "Estimate runtime from [[capacity_wh]] Wh, [[soc_percent]]% charge, and [[load_w]] W load",
+    "nl": "Schat de gebruiksduur uit [[capacity_wh]] Wh, [[soc_percent]]% lading en [[load_w]] W verbruik"
   },
   "tokens": [
     {
