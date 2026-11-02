@@ -1,0 +1,47 @@
+{
+  "id": "com.codearcade.batteryguardian",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "runtime": "nodejs",
+  "platforms": [
+    "local"
+  ],
+  "sdk": 3,
+  "brandColor": "#1e635c",
+  "name": {
+    "en": "Battery Guardian",
+    "nl": "Battery Guardian"
+  },
+  "description": {
+    "en": "Know what your battery can power and how long it may last.",
+    "nl": "Ontdek wat je accu kan voeden en hoe lang deze meegaat."
+  },
+  "category": "energy",
+  "tags": {
+    "en": [
+      "battery",
+      "backup power",
+      "runtime",
+      "energy storage"
+    ],
+    "nl": [
+      "accu",
+      "noodstroom",
+      "gebruiksduur",
+      "energieopslag"
+    ]
+  },
+  "images": {
+    "small": "/assets/store-small.png",
+    "large": "/assets/store-large.png",
+    "xlarge": "/assets/store-xlarge.png"
+  },
+  "author": {
+    "name": "CodeArcade"
+  },
+  "source": "https://github.com/CodeArcade-ctrl/battery-guardian",
+  "homepage": "https://github.com/CodeArcade-ctrl/battery-guardian",
+  "bugs": {
+    "url": "https://github.com/CodeArcade-ctrl/battery-guardian/issues"
+  }
+}
