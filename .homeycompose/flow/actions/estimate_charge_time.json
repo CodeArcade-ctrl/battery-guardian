@@ -1,0 +1,66 @@
+{
+  "title": {
+    "en": "Estimate battery charge time",
+    "nl": "Schat laadtijd van de accu"
+  },
+  "hint": {
+    "en": "An ideal constant-power estimate. Real charging can slow near full charge.",
+    "nl": "Ideale schatting met constant vermogen. In werkelijkheid kan laden bij een volle accu vertragen."
+  },
+  "args": [
+    {
+      "name": "capacity_wh",
+      "type": "number",
+      "title": {
+        "en": "Battery capacity (Wh)",
+        "nl": "Accucapaciteit (Wh)"
+      }
+    },
+    {
+      "name": "current_percent",
+      "type": "number",
+      "title": {
+        "en": "Current charge (%)",
+        "nl": "Huidige lading (%)"
+      }
+    },
+    {
+      "name": "target_percent",
+      "type": "number",
+      "title": {
+        "en": "Target charge (%)",
+        "nl": "Doellading (%)"
+      }
+    },
+    {
+      "name": "charge_power_w",
+      "type": "number",
+      "title": {
+        "en": "Charging power (W)",
+        "nl": "Laadvermogen (W)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Estimate charging from [[current_percent]]% to [[target_percent]]%",
+    "nl": "Schat laden van [[current_percent]]% naar [[target_percent]]%"
+  },
+  "tokens": [
+    {
+      "name": "charge_time_hours",
+      "type": "number",
+      "title": {
+        "en": "Estimated time (hours)",
+        "nl": "Geschatte tijd (uren)"
+      }
+    },
+    {
+      "name": "energy_needed_wh",
+      "type": "number",
+      "title": {
+        "en": "Energy needed (Wh)",
+        "nl": "Benodigde energie (Wh)"
+      }
+    }
+  ]
+}

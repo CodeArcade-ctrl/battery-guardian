@@ -1,0 +1,1 @@
+Krijg beter inzicht in noodstroom. Schat de accuduur op basis van capaciteit, laadniveau en actueel vermogen; bereken de laadtijd en bescherm je reserve met Flow-voorwaarden. Resultaten zijn schattingen, geen accudiagnose.

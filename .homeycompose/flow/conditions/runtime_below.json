@@ -1,0 +1,48 @@
+{
+  "title": {
+    "en": "Estimated runtime is below a limit",
+    "nl": "Geschatte gebruiksduur is onder een grens"
+  },
+  "hint": {
+    "en": "Estimates remaining runtime from usable capacity, charge, and current load.",
+    "nl": "Schat resterende gebruiksduur op basis van bruikbare capaciteit, lading en huidig vermogen."
+  },
+  "args": [
+    {
+      "name": "capacity_wh",
+      "type": "number",
+      "title": {
+        "en": "Usable capacity (Wh)",
+        "nl": "Bruikbare capaciteit (Wh)"
+      }
+    },
+    {
+      "name": "soc_percent",
+      "type": "number",
+      "title": {
+        "en": "Charge level (%)",
+        "nl": "Laadniveau (%)"
+      }
+    },
+    {
+      "name": "load_w",
+      "type": "number",
+      "title": {
+        "en": "Current load (W)",
+        "nl": "Huidig vermogen (W)"
+      }
+    },
+    {
+      "name": "limit_hours",
+      "type": "number",
+      "title": {
+        "en": "Runtime limit (hours)",
+        "nl": "Duurgrens (uren)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Estimated runtime is below [[limit_hours]] hours",
+    "nl": "Geschatte gebruiksduur is minder dan [[limit_hours]] uur"
+  }
+}

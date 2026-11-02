@@ -1,0 +1,66 @@
+{
+  "title": {
+    "en": "Estimate battery runtime",
+    "nl": "Schat accuduur"
+  },
+  "hint": {
+    "en": "Uses the usable capacity entered, current charge percentage, and steady power draw.",
+    "nl": "Gebruikt de opgegeven bruikbare capaciteit, huidige laadpercentage en constante vermogensafname."
+  },
+  "args": [
+    {
+      "name": "capacity_wh",
+      "type": "number",
+      "title": {
+        "en": "Usable capacity (Wh)",
+        "nl": "Bruikbare capaciteit (Wh)"
+      }
+    },
+    {
+      "name": "soc_percent",
+      "type": "number",
+      "title": {
+        "en": "Charge level (%)",
+        "nl": "Laadniveau (%)"
+      }
+    },
+    {
+      "name": "load_w",
+      "type": "number",
+      "title": {
+        "en": "Current load (W)",
+        "nl": "Huidig vermogen (W)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Estimate runtime with [[soc_percent]]% charge and [[load_w]] W load",
+    "nl": "Schat de gebruiksduur bij [[soc_percent]]% lading en [[load_w]] W verbruik"
+  },
+  "tokens": [
+    {
+      "name": "runtime_hours",
+      "type": "number",
+      "title": {
+        "en": "Estimated runtime (hours)",
+        "nl": "Geschatte gebruiksduur (uren)"
+      }
+    },
+    {
+      "name": "runtime_minutes",
+      "type": "number",
+      "title": {
+        "en": "Estimated runtime (minutes)",
+        "nl": "Geschatte gebruiksduur (minuten)"
+      }
+    },
+    {
+      "name": "remaining_energy_wh",
+      "type": "number",
+      "title": {
+        "en": "Energy remaining (Wh)",
+        "nl": "Resterende energie (Wh)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "title": {
+    "en": "Calculate energy above reserve",
+    "nl": "Bereken energie boven reserve"
+  },
+  "hint": {
+    "en": "Reports usable energy above your chosen reserve, without controlling the battery.",
+    "nl": "Berekent bruikbare energie boven je reserve, zonder de accu aan te sturen."
+  },
+  "args": [
+    {
+      "name": "capacity_wh",
+      "type": "number",
+      "title": {
+        "en": "Usable capacity (Wh)",
+        "nl": "Bruikbare capaciteit (Wh)"
+      }
+    },
+    {
+      "name": "soc_percent",
+      "type": "number",
+      "title": {
+        "en": "Charge level (%)",
+        "nl": "Laadniveau (%)"
+      }
+    },
+    {
+      "name": "reserve_percent",
+      "type": "number",
+      "title": {
+        "en": "Protected reserve (%)",
+        "nl": "Beschermde reserve (%)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "Calculate energy remaining above a [[reserve_percent]]% reserve",
+    "nl": "Bereken resterende energie boven een reserve van [[reserve_percent]]%"
+  },
+  "tokens": [
+    {
+      "name": "usable_energy_wh",
+      "type": "number",
+      "title": {
+        "en": "Energy above reserve (Wh)",
+        "nl": "Energie boven reserve (Wh)"
+      }
+    },
+    {
+      "name": "below_reserve",
+      "type": "boolean",
+      "title": {
+        "en": "Below reserve",
+        "nl": "Onder reserve"
+      }
+    }
+  ]
+}

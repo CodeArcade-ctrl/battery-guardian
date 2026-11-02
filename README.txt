@@ -1,0 +1,1 @@
+Make backup power easier to reason about. Estimate battery runtime from capacity, charge level, and live load; work out charging time; and use Flow conditions to protect a reserve. Results are estimates, not a battery health measurement.

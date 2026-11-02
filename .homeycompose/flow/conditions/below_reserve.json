@@ -1,0 +1,32 @@
+{
+  "title": {
+    "en": "Battery is below reserve",
+    "nl": "Accu is onder reserve"
+  },
+  "hint": {
+    "en": "Compares the current state of charge with your chosen reserve.",
+    "nl": "Vergelijkt het huidige laadniveau met de gekozen reserve."
+  },
+  "args": [
+    {
+      "name": "soc_percent",
+      "type": "number",
+      "title": {
+        "en": "Charge level (%)",
+        "nl": "Laadniveau (%)"
+      }
+    },
+    {
+      "name": "reserve_percent",
+      "type": "number",
+      "title": {
+        "en": "Protected reserve (%)",
+        "nl": "Beschermde reserve (%)"
+      }
+    }
+  ],
+  "titleFormatted": {
+    "en": "[[soc_percent]]% charge is below [[reserve_percent]]% reserve",
+    "nl": "Lading van [[soc_percent]]% is lager dan reserve van [[reserve_percent]]%"
+  }
+}
